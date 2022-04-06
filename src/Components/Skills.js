@@ -1,21 +1,31 @@
-import React from 'react'
-import skillsimg from '../img/skills.png'
+import skillsimg from "../img/skills.png";
+import grp from "../img/Group156.png";
 
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Skills() {
-  return (
-    <div className='Skills d-flex justify-content-center align-items-center'>
-        <div className="container d-flex justify-content-center align-items-center" >
-            <div className="left3">
-                <h1>S<span>kills</span></h1>
-            </div>
+  useEffect(() => {
+    Aos.init({ duration: 1000, delay: 200 });
+  }, []);
 
-            <div className="right3">
-                    <img src={skillsimg} alt="" />
-            </div>
+  return (
+    <div className="Skills" id="skills">
+      <h1 data-aos="fade-down">
+        S<span>kills</span>
+      </h1>
+      <div className="container skills-main">
+        <div className="left3">
+          <img src={grp} alt="" />
         </div>
+
+        <div className="right3">
+          <img src={skillsimg} alt="" />
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

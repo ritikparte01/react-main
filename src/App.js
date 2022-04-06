@@ -1,32 +1,26 @@
-
-import './App.css';
-import About from './Components/About';
-import Home from './Components/Home';
-import {useState} from 'react'
+import "./App.css";
+import About from "./Components/About";
+import Home from "./Components/Home";
+import { useState } from "react";
 import Navbar from "./Components/Navbar";
-import Skills from './Components/Skills';
+import Skills from "./Components/Skills";
+import Contact from "./Components/Contact";
 
 function App(props) {
+  const [mode, setMode] = useState("light");
+  const [txtw, setTxtw] = useState("black");
 
-
-  const [mode, setMode] = useState('light');
-  const [txtw,setTxtw]  = useState('black')
-
-
-  const toggleMode =() =>{
-    if(mode === 'light'){
-      setMode('darka')
-      document.body.style.backgroundColor='black'
-      setTxtw('white')
+  const toggleMode = () => {
+    if (mode === "light") {
+      setMode("darka");
+      document.body.style.backgroundColor = "black";
+      setTxtw("white");
+    } else {
+      setMode("light");
+      document.body.style.backgroundColor = "white";
+      setTxtw("black");
     }
-    else{
-      setMode('light')
-      document.body.style.backgroundColor='white'
-      setTxtw('black')
-    }
-  }
-
-
+  };
 
   return (
     <div className="App">
@@ -34,6 +28,7 @@ function App(props) {
       <Home mode={mode} toggleMode={toggleMode} />
       <About txtw={txtw} />
       <Skills />
+      <Contact txtw={txtw} />
     </div>
   );
 }

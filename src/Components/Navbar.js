@@ -1,14 +1,23 @@
-import React from "react";
-import { useState } from "react";
-// import './Home.css'
+import React, { useEffect } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function Navbar(props) {
+  useEffect(() => {
+    Aos.init({ duration: 1000 });
+  }, []);
+
   return (
     <div>
-      <nav className={`navbar navbar-expand-lg navbar-light bg-${props.mode}`} style={{ color: props.mode === "darka" ? "white" : "black" }}>
+      <nav
+        className={`navbar navbar-expand-lg navbar-light bg-${props.mode}`}
+        style={{ color: props.mode === "darka" ? "white" : "black" }}
+      >
         <div className="container">
-          <a className="navbar-brand" href="#">
-            <h2><span>R</span>ITIK</h2>
+          <a data-aos="zoom-in-down" className="navbar-brand" href="#">
+            <h2>
+              <span>R</span>ITIK
+            </h2>
           </a>
           <button
             className="navbar-toggler"
@@ -22,19 +31,23 @@ function Navbar(props) {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
+            <ul data-aos="fade-down" className="navbar-nav ms-auto">
               <li className="nav-item">
-                <a className={`nav-link active text-${props.txtw}`} aria-current="page" href="#about" >
+                <a
+                  className={`nav-link active text-${props.txtw}`}
+                  aria-current="page"
+                  href="#about"
+                >
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className={`nav-link text-${props.txtw}`} href="#">
+                <a className={`nav-link text-${props.txtw}`} href="#skills">
                   Skills
                 </a>
               </li>
               <li className="nav-item">
-                <a className={`nav-link text-${props.txtw}`} href="#">
+                <a className={`nav-link text-${props.txtw}`} href="#contact">
                   Contact
                 </a>
               </li>
