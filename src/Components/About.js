@@ -6,21 +6,21 @@ import "aos/dist/aos.css";
 
 function About(props) {
   useEffect(() => {
-    Aos.init({ duration: 2000, delay: 300 });
+    Aos.init({ duration: 2000, delay: 400 });
   }, []);
 
   return (
     <div>
       <div className="container About" id="about">
-        <div className="left2">
+        <div data-aos="fade-down" className="left2">
           {/* <img className='img-fluid' src={aboutimg} alt="" /> */}
         </div>
 
         <div className="right2">
-          <h1>
+          <h1 data-aos="fade-down">
             About <span>Me</span>
           </h1>
-          <p className={`text-${props.txtw}`}>
+          <p  data-aos="fade-down" className={`text-${props.txtw}`}>
             I Am Ritik Frontend Web Developer Based In Mumbai, Dedicated To
             Professional Services. Quality Web Design And Development, And
             Trustworthy Result. I Am Focused On Creating Highly Functional User

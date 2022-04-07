@@ -14,6 +14,7 @@ function App(props) {
     if (mode === "light") {
       setMode("darka");
       document.body.style.backgroundColor = "black";
+      document.body.style.transition = "0.8s ease-in-out";
       setTxtw("white");
     } else {
       setMode("light");
@@ -27,7 +28,7 @@ function App(props) {
       <Navbar mode={mode} txtw={txtw} />
       <Home mode={mode} toggleMode={toggleMode} />
       <About txtw={txtw} />
-      <Skills />
+      <Skills txtw={txtw} />
       <Contact txtw={txtw} />
     </div>
   );

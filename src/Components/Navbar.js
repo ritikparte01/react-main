@@ -14,7 +14,7 @@ function Navbar(props) {
         style={{ color: props.mode === "darka" ? "white" : "black" }}
       >
         <div className="container">
-          <a data-aos="zoom-in-down" className="navbar-brand" href="#">
+          <a data-aos="zoom-in" className="navbar-brand" href="#">
             <h2>
               <span>R</span>ITIK
             </h2>
