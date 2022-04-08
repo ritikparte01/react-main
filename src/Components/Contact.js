@@ -37,7 +37,7 @@ function Contact(props) {
             </div>
           </div>
 
-          <h1 data-aos="fade-down"  className="my-4">
+          <h1 data-aos="fade-down"  className="my-4 form-head">
             <span>Get</span> Call Back
           </h1>
           <form>

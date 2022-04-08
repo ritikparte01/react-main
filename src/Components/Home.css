@@ -364,6 +364,73 @@ textarea {
   padding-left: 10px;
 }
 
+.projects{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.projects img{
+  width: 40%;
+  margin-top: 50px;
+}
+
+
+.projects h1 {
+  color: #5222d0;
+  font-weight: 600;
+  font-size: 55px;
+  text-align: center;
+}
+
+.projects h1 span {
+  color: #ec615b;
+}
+
+
+.project-main{
+  display: grid;
+  grid-template-columns: 48% 48%;
+  grid-gap: 4%;
+  margin-top: 100px;
+  height: auto;
+  padding-bottom: 200px;
+}
+
+.card1{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+}
+
+.card1 img{
+  width: 100%;
+}
+
+.desc{
+  margin-top: 20px;
+}
+
+.desc h3{
+  color: #5222d0;
+  font-weight: 700;
+}
+
+.desc p{
+  color: #ec615b;
+}
+
+.back{
+  background: linear-gradient(#5222d0, #ec615b);
+  font-weight: 600;
+}
+
+
+
+
 /* ---------------------MEDIA QUERY FOR MOBILES----------------- */
 
 @media only screen and (max-width: 480px) {
@@ -542,6 +609,37 @@ textarea {
   .send {
     margin-left: 90px;
   }
+
+
+  .project-main{
+    display: grid;
+    grid-template-columns:100%;
+    /* grid-row-gap: 2%; */
+    padding: 20px;
+  }
+
+  .projects h1{
+    font-size: 40px;
+  }
+
+  .projects img{
+    width: 80%;
+  }
+
+  .card1{
+    height: 350px;
+    padding: 10px;
+    box-shadow: 8px 8px 15px rgba(128, 128, 128, 0.565);
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+  }
+
+
+
+
+
+
 }
 
 /* ---------------------MEDIA QUERY FOR TABS AND ABOVER----------------- */
@@ -610,7 +708,7 @@ textarea {
 
   .About {
     flex-direction: column;
-    padding-bottom: 40vh;
+    /* padding-bottom: 40vh; */
   }
 
   .left2 {
@@ -633,5 +731,40 @@ textarea {
     text-align: center;
     padding-left: 20px;
     line-height: 35px;
+  }
+
+  .Skills{
+    height: 100vh;
+  }
+
+  .skills-main{
+    flex-direction: column-reverse;
+    height: 100%;
+  }
+  .Contact{
+    flex-direction: column;
+  }
+
+  .c-info{
+    width: 100%;
+    font-size: smaller;
+  }
+
+  .info{
+    font-size: small;
+  }
+
+
+
+  form{
+    width: 100%;
+  }
+
+  .form-head{
+    font-size: 30px !important;
+  }
+
+  .send{
+    margin-left: 90px;
   }
 }

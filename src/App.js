@@ -5,6 +5,7 @@ import { useState } from "react";
 import Navbar from "./Components/Navbar";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
+import Projects from "./Components/Projects";
 
 function App(props) {
   const [mode, setMode] = useState("light");
@@ -30,6 +31,7 @@ function App(props) {
       <About txtw={txtw} />
       <Skills txtw={txtw} />
       <Contact txtw={txtw} />
+      {/* <Projects /> */}
     </div>
   );
 }
