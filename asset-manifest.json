@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-main/static/css/main.9a70eb73.css",
+    "main.js": "/react-main/static/js/main.f46be9e0.js",
+    "static/media/wstore.png": "/react-main/static/media/wstore.eb6c80494e30927519aa.png",
+    "static/media/arcon.png": "/react-main/static/media/arcon.bee19dcf6e2390ff590b.png",
+    "static/media/api.png": "/react-main/static/media/api.775ef56ae5832bb8622a.png",
+    "static/media/catlog.png": "/react-main/static/media/catlog.9a6048293ec3d256e9a8.png",
+    "static/media/projects.png": "/react-main/static/media/projects.00496745adbc09249c00.png",
+    "static/media/skills.png": "/react-main/static/media/skills.b4ca44f556f2ffa4c5df.png",
+    "static/media/hero.png": "/react-main/static/media/hero.c7035ca6b9544d80f8f0.png",
+    "static/media/about.png": "/react-main/static/media/about.72e81cac1a4b6bcabf1d.png",
+    "static/media/docker.png": "/react-main/static/media/docker.45acdafbf09ff288289e.png",
+    "static/media/contact.png": "/react-main/static/media/contact.73c2feccc329ddd9d750.png",
+    "static/media/Dashboard-Test.png": "/react-main/static/media/Dashboard-Test.12537413747d2a80c9f7.png",
+    "static/media/Group156.png": "/react-main/static/media/Group156.9004a2a5182ae9d81e5a.png",
+    "index.html": "/react-main/index.html",
+    "main.9a70eb73.css.map": "/react-main/static/css/main.9a70eb73.css.map",
+    "main.f46be9e0.js.map": "/react-main/static/js/main.f46be9e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a70eb73.css",
+    "static/js/main.f46be9e0.js"
+  ]
+}
