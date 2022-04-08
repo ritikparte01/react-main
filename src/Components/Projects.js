@@ -8,7 +8,7 @@ import dash from '../img/Dashboard-Test.png'
 import cat from '../img/catlog.png'
 import api from '../img/api.png'
 
-function Projects() {
+function Projects(props) {
   return (
     <div>
         <div className="container projects mt-3">
@@ -67,6 +67,16 @@ function Projects() {
 
             <button className="btn text-white back px-5 my-5">Home</button>
         </div>
+
+        <div className="form-check form-switch">
+        <input
+          className="form-check-input"
+          type="checkbox"
+          role="switch"
+          id="flexSwitchCheckDefault"
+          onClick={props.toggleMode}
+        />
+      </div>
     </div>
   )
 }
