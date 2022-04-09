@@ -65,7 +65,7 @@ function Projects(props) {
                 </div>
             </div>
 
-            <button className="btn text-white back px-5 my-5">Home</button>
+            {/* <button className="btn text-white back px-5 my-5">Home</button> */}
         </div>
 
         <div className="form-check form-switch">

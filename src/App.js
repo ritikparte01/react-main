@@ -30,8 +30,8 @@ function App(props) {
       <Home mode={mode} toggleMode={toggleMode} />
       <About txtw={txtw} />
       <Skills txtw={txtw} />
+      <Projects mode={mode} toggleMode={toggleMode} />
       <Contact txtw={txtw} />
-      {/* <Projects mode={mode} toggleMode={toggleMode} /> */}
     </div>
   );
 }

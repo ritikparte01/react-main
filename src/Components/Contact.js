@@ -51,7 +51,7 @@ function Contact(props) {
               rows="5"
               placeholder="Comment"
             ></textarea>
-            <button data-aos="fade-up"  className="btn send">Send</button>
+            <button data-aos="fade-up"  className="btn send mb-5">Send</button>
           </form>
         </div>
       </div>
