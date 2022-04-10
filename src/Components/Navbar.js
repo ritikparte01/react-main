@@ -17,7 +17,7 @@ function Navbar(props) {
   return (
     <div>
       <nav
-        className={`navbar navbar-expand-lg navbar-light bg-${props.mode}`}
+        className={`navbar navbar-expand-lg navbar-light sticky-top-0 bg-${props.mode}`}
         style={{ color: props.mode === "darka" ? "white" : "black" }}
       >
         <div className="container">
