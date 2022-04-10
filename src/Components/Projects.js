@@ -20,47 +20,47 @@ function Projects(props) {
                     <img src={arcon} alt="" />
                     <div className="desc">
                         <h3>Arcon Structures</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam.</p>
+                        <p>Static Website for construction company</p>
                     </div>
                 </div>
 
                 <div className="card1">
                     <img src={wstore} alt="" />
                     <div className="desc">
-                        <h3>Arcon Structures</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam.</p>
+                        <h3>WStore</h3>
+                        <p>An E-Commerce Store Based On WoCommerce</p>
                     </div>
                 </div>
 
                 <div className="card1">
                     <img src={docker} alt="" />
                     <div className="desc">
-                        <h3>Arcon Structures</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam.</p>
+                        <h3>Docker Clone</h3>
+                        <p>Clone Of Docker Website</p>
                     </div>
                 </div>
 
                 <div className="card1">
                     <img src={dash} alt="" />
                     <div className="desc">
-                        <h3>Arcon Structures</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam.</p>
+                        <h3>Dashboard</h3>
+                        <p>Build Dashboard Using CSS Framework Bootstrap 5</p>
                     </div>
                 </div>
 
                 <div className="card1">
                     <img src={cat} alt="" />
                     <div className="desc">
-                        <h3>Arcon Structures</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam.</p>
+                        <h3>Catalouge Page</h3>
+                        <p>Catalouge Page For an Ecommerce Website</p>
                     </div>
                 </div>
 
                 <div className="card1">
                     <img src={api} alt="" />
                     <div className="desc">
-                        <h3>Arcon Structures</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, veniam.</p>
+                        <h3>Quote API</h3>
+                        <p>API Based Project Using Quatable Api</p>
                     </div>
                 </div>
             </div>

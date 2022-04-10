@@ -3,6 +3,10 @@ import React, { useEffect } from "react";
 import hero from "../img/hero.png";
 import "./Home.css";
 
+import {
+  Link
+} from "react-router-dom";
+
 import Aos from "aos";
 import "aos/dist/aos.css";
 
@@ -33,7 +37,7 @@ function Home(props) {
           </p>
           <div data-aos="fade-right" className="btns">
             <button className="btn hire px-4">Hire Me !</button>
-            <button className="btn btn project px-4">See My Projects</button>
+            <Link to="/projects" className="btn btn project px-4">See My Projects</Link>
           </div>
         </div>
         <div data-aos="fade-down" className="right">

@@ -429,6 +429,10 @@ textarea {
 }
 
 
+.navbar-toggler{
+  background: linear-gradient(45deg, #8558f7, #ff8b87);
+  border: none;
+}
 
 
 /* ---------------------MEDIA QUERY FOR MOBILES----------------- */
