@@ -2,6 +2,13 @@ import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
 
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
 function Navbar(props) {
   useEffect(() => {
     Aos.init({ duration: 1000 });
@@ -32,6 +39,9 @@ function Navbar(props) {
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul data-aos="fade-down" className="navbar-nav ms-auto">
+            <li className="nav-item">
+                <Link to="/react-main" className={`nav-link text-${props.txtw}`}>Home</Link>
+              </li>
               <li className="nav-item">
                 <a
                   className={`nav-link active text-${props.txtw}`}
@@ -52,7 +62,7 @@ function Navbar(props) {
                 </a>
               </li>
               <li className="nav-item">
-                <a className={`nav-link text-${props.txtw}`}>Projects</a>
+                <Link to="/projects" className={`nav-link text-${props.txtw}`}>Projects</Link>
               </li>
             </ul>
           </div>
