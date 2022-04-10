@@ -48,7 +48,11 @@ function App(props) {
       <About txtw={txtw} />
       <Skills txtw={txtw} />
       <Projects mode={mode} toggleMode={toggleMode} />
+<<<<<<< HEAD
       <Contact txtw={txtw} /> */}
+=======
+//       <Contact txtw={txtw} />
+>>>>>>> 1b372d5ab15145957268e72bb2c3f90a86851369
     </div>
   );
 }
